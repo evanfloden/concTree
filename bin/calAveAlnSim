@@ -1,0 +1,45 @@
+#!/bin/bash
+COMPARE_MODE=column
+tcoffee_cmd="t_coffee -other_pg aln_compare"
+
+alns=( "$@" )
+num_aln=${#alns[@]}
+
+sum_sim=0
+tmp_array=()
+for (( i=0; i<$num_aln; i++ ))
+do
+    tmp_array+=(0)
+done
+
+
+tmp_array_size=${#tmp_array[@]}
+#echo "tmp_array has a size of $tmp_array_size"
+
+
+for (( i=0; i<$num_aln; i++ ))
+do
+	aln1=${alns[$i]}
+	for (( j=0; j<$num_aln; j++ ))
+	do
+		aln2=${alns[$j]}
+		if (( $i != $j ))
+		then
+			#echo "Running $tcoffee_cmd -al1 $aln1 -al2 $aln2 -compare_mode $COMPARE_MODE"
+                        sim=$($tcoffee_cmd -al1 $aln1 -al2 $aln2 -compare_mode $COMPARE_MODE|tail -n1|awk '{print $4}')
+			#echo "sim = $sim"
+                        sum_sim=$(echo "$sum_sim+$sim"|bc)
+			#echo "sum_sim = $sum_sim"
+                        tmp_array[$i]=$(echo "${tmp_array[$i]}+$sim"|bc)
+                        #echo "temp array value = ${tmp_array[$i]}"
+		fi
+	done
+done
+
+for (( i=0; i<$num_aln; i++ ))
+do
+	ave=$(echo "scale=2; ${tmp_array[$i]}/($num_aln-1)"|bc)
+	echo -en "$ave,"
+done
+ave=$(echo "scale=2; $sum_sim/($num_aln*$num_aln-$num_aln)"|bc)
+echo -en "$ave\n"

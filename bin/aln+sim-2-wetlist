@@ -1,0 +1,27 @@
+#!/bin/bash
+simCSV_f=$1; shift
+wei_f=$1; shift
+alns=( "$@" )
+aLen=${#alns[@]}
+
+echo "simCSV=$simCSV_f"
+echo "wei_f=$wei_f"
+echo "aLen=$aLen"
+
+if [ ! -e  $wei_f ]
+then
+  echo -n "" > $wei_f
+#find the similarity of alignment  
+  simArr=($(cat $simCSV_f|tr "," "\n"|tail -n+2))
+  for (( i=0; i<${aLen}; i++ ));
+  do
+#find the lenght of alignment  
+	  len=$(head -n1 ${alns[$i]}|awk '{print $2}')
+	  wei=$(echo 100-${simArr[$i]}|bc) 	#wei ~ 100 - alignment similarity
+	  echo " ${alns[$i]} $len $wei"
+	  for (( j=0; j<${len}; j++ ));
+	  do
+	     echo $wei >> $wei_f
+	  done
+  done
+fi
