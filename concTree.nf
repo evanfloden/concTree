@@ -226,16 +226,14 @@ process paramastrap_trees {
     """
 }
 
-process bootstrap_trees {
-    tag "bootstrap trees: $datasetID"
+process bootstrap_samples {
+    tag "bootstrap samples: $datasetID"
 
     input:
-    each x from 1..bootstraps
     set val (datasetID), file(baseAlignment) from baseAlignmentsForBootstrap
 
     output:
     set val (datasetID), file("bootstrap.phylip") into bootstrapPhylips
-    set val (datasetID), file("bootstrap.nwk") into bootstrapTrees
 
     script:
     //
@@ -245,10 +243,33 @@ process bootstrap_trees {
     """
     seed=4533
     esl-reformat phylip ${baseAlignment} > baseAlignment.phylip
-    echo -e "baseAlignment.phylip\nR\n1\nY\n\$seed\n" | seqboot
+    echo -e "baseAlignment.phylip\nR\n{bootstraps}\nY\n\$seed\n" | seqboot
     mv outfile bootstrap.phylip
+    """
+}
 
-    raxmlHPC-SSE3 -m PROTGAMMAJTT -p 4533 -T 1 -s bootstrap.phylip -n tmp
+process bootstrap_trees {
+    tag "bootstrap trees: $datasetID"
+
+    input:
+    each x from 1..bootstraps
+    set val (datasetID), file(bootstrapPhylip) from bootstrapPhylips
+
+    output:
+    set val (datasetID), file("bootstrap.nwk") into bootstrapTrees
+
+    script:
+    //
+    // Generate Bootstrap Trees: Generate bootstrap trees in Newick format from the base alignment
+    //
+
+    """
+    base=${bootstraps}
+    h_t=\$(head -n+1 ${bootstrapPhylip})
+    awk -v RS="\$h_t" 'NR == ${x+1} { print RS \$0 > "tmpPhylip" (NR-1); }' ${bootstrapPhylip}
+    tmp_f="tmpPhylip${x}"
+
+    raxmlHPC-SSE3 -m PROTGAMMAJTT -p 4533 -T 1 -s tmpPhylip${x} -n tmp
     cp RAxML_bestTree.tmp bootstrap.nwk
     rm *.tmp
     """
