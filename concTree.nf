@@ -201,6 +201,7 @@ process trees {
 
 process paramastrap_trees {
     tag "paramastrap trees: $datasetID"
+    publishDir "$results_path/$datasetID/paramastraptrees", mode: 'copy', overwrite: 'true'
 
     input:
     set val (datasetID), file(alternativeAlignment) from alternativeAlignments
@@ -228,6 +229,7 @@ process paramastrap_trees {
 
 process bootstrap_samples {
     tag "bootstrap samples: $datasetID"
+    publishDir "$results_path/$datasetID/bootsrap_samples", mode: 'copy', overwrite: 'true'
 
     input:
     set val (datasetID), file(baseAlignment) from baseAlignmentsForBootstrap
@@ -243,13 +245,14 @@ process bootstrap_samples {
     """
     seed=4533
     esl-reformat phylip ${baseAlignment} > baseAlignment.phylip
-    echo -e "baseAlignment.phylip\nR\n{bootstraps}\nY\n\$seed\n" | seqboot
+    echo -e "baseAlignment.phylip\nR\n${bootstraps}\nY\n\$seed\n" | seqboot
     mv outfile bootstrap.phylip
     """
 }
 
 process bootstrap_trees {
     tag "bootstrap trees: $datasetID"
+    publishDir "$results_path/$datasetID/bootstrap_trees", mode: 'copy', overwrite: 'true'
 
     input:
     each x from 1..bootstraps
@@ -280,21 +283,23 @@ paramastrapTrees
     .collectFile() { item ->
        [ "${item[0]}.paramastraps.txt", item[1] ]
     }
+    .map { item -> [ ${item.name}[0,14] , item ] }  
     .set { catParamastrapTrees }
-
 
 bootstrapTrees
     .collectFile() { item ->
        [ "${item[0]}.bootstraps.txt", item[1] ]
      }
+    .map { item -> [ ${item.name}[0,14] , item ] }
     .set { catBootstrapTrees }
+
 
 process nodeSupport {
     publishDir "$results_path/$datasetID/nodeSupport/", mode: 'copy', overwrite: 'true'
 
     input:
-    file(catBootstrap) from catBootstrapTrees
-    file(catParamastrap) from catParamastrapTrees
+    set val(datasetID), file(catBootstrap) from catBootstrapTrees
+    set val(datasetID), file(catParamastrap) from catParamastrapTrees
     set val(datasetID), file(base_tree) from baseTrees
     set val(datasetID), file(conc_tree) from concatenatedTrees
     set val(datasetID), file(base_conc_tree) from baseConcatenatedTrees
