@@ -125,11 +125,11 @@ process concatenate {
     publishDir "$results_path/$datasetID/alignments", mode: 'copy', overwrite: 'true'
 
     input:
-    set val(datasetID), file(alternativeAlignmentsDir) from guidanceAlignments
+    set val(datasetID), file(alternativeAlignmentsDir) from guidanceAlignments_1
     set val(datasetID), file(base_alignment) from baseAlignments
 
     output:
-    set val(datasetID), file("base_alignment.phylip") into baseAlignmentPhylips, 
+    set val(datasetID), file("base_alignment.phylip") into baseAlignmentPhylips 
     set val(datasetID), file("concatenated_alignment.phylip") into concatenatedAlignmentPhylips
     set val(datasetID), file("base_alignment_concatenated.phylip") into baseAlignmentConcatenated
 
@@ -227,18 +227,18 @@ process create_strap_alignments {
     alternativeMSAsPHYLIP=("\${alternativeMSAsFASTA[@]/.fasta/.phylip}")
 
     x=0
-    mkdir paramstrap_phylips
+    mkdir paramastrap_phylips
     for i in "\${alternativeMSAsFASTA[@]}"
     do
         outfileBase=\${i%.fasta}
         esl-reformat phylip \$i > \$outfileBase.phylip
-        echo -e "alternativeAlignment.phylip\nR\n1\nY\n\$seed\n" | seqboot
-        mv outfile paramstrap_phylips/paramastrap_\${x}.phylip
+        echo -e "\$outfileBase.phylip\nR\n1\nY\n\$seed\n" | seqboot
+        mv outfile paramastrap_phylips/paramastrap_\${x}.phylip
         let x=x+1
     done
 
-    esl-reformat phylip ${baseAlignment} > baseAlignment.phylip
-    echo -e "baseAlignment.phylip\nR\n${bootstraps}\nY\n\$seed\n" | seqboot
+    
+    echo -e "${basePhylip}\nR\n${bootstraps}\nY\n\$seed\n" | seqboot
     mv outfile bootstrap.phylip
 
 
@@ -247,11 +247,11 @@ process create_strap_alignments {
 
 process create_strap_tree {
     tag "bootstrap samples: $datasetID"
-    publishDir "$results_path/$datasetID/srap_trees", mode: 'copy', overwrite: 'true'
+    publishDir "$results_path/$datasetID/strap_trees", mode: 'copy', overwrite: 'true'
 
     input:
-    set val (datasetID), file(paramastrapPhylipsDir) dir paramastrapPhylips
-    set val (datasetID), file(bootstrapPhylip) dir bootstrapPhylips
+    set val (datasetID), file(paramastrapPhylipsDir) from paramastrapPhylips
+    set val (datasetID), file(bootstrapPhylip) from bootstrapPhylips
 
     output:
     set val (datasetID), file("bootstrap_trees") into bootstrapTrees
@@ -264,15 +264,16 @@ process create_strap_tree {
     //
 
     """
+
     mkdir bootstrap_trees
-    for x in 1..${bootstraps} 
+    for x in \$(seq 1 ${bootstraps})
     do
         h_t=\$(head -n+1 ${bootstrapPhylip})
-        awk -v RS="\$h_t" 'NR == ${x+1} { print RS \$0 > "tmpPhylip" (NR-1); }' ${bootstrapPhylip}
-        tmp_f="tmpPhylip${x}"
+        awk -v RS="\$h_t" -v nr="\$((\$x+1))" 'NR == nr { print RS \$0 > "tmpPhylip" (NR-1); }' ${bootstrapPhylip}
+        tmp_f="tmpPhylip\$x"
 
-        raxmlHPC-SSE3 -m PROTGAMMAJTT -p 4533 -T 1 -s tmpPhylip${x} -n tmp
-        cp RAxML_bestTree.tmp bootstrap_trees/bootstrap_\${x}.nwk
+        raxmlHPC-SSE3 -m PROTGAMMAJTT -p 4533 -T 1 -s tmpPhylip\$x -n tmp
+        cp RAxML_bestTree.tmp bootstrap_trees/bootstrap_\$x.nwk
         rm *.tmp
     done
 
