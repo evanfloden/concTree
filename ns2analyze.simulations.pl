@@ -137,8 +137,8 @@ foreach my $exp (sort (keys (%da))) {
 
 my @treeList=('Base');#;,'Conc', 'BaseConc');
 my @methodsList=('paramastrap', 'bootstrap');
-my @tipsList=('tips16');#,'tips32','tips64');
-my @symList=('0.5');#,'1.0','2.0');
+my @tipsList=('tips16','tips32');#,'tips64');
+my @symList=('0.5','1.0','2.0');
 
 print "Table 1.1: Average Topological Accuracy\n";
 foreach my $tree (@treeList) {
@@ -302,29 +302,39 @@ sub list2bmcc_alternative {
        }
      @array=sort { $a->[1] <=> $b->[1]} @array;
      
-     my $bmcc=-1;
-     my $mcc;
+     my $bmcc=-999;
+     my $mcc=0;
      my ($tp,$tn,$fp,$fn);
-     for (my $i=0; $i=$n; $i++) { # for every level we draw the line
+     for (my $k=0; $k<=$n; $k++) { # for every level we draw the line
+       $mcc=0;
        $tp=0;$tn=0;$fp=0;$fn=0;
        for (my $j=0; $j<$n; $j++) { # for every node we assign value
-         if ($array[$j][0] == 0 && $j < $i ) {$fp++}
-         elsif ($array[$j][0] == 0 && $j >= $i ) {$tn++} 
-         elsif ($array[$j][0] == 1 && $j < $i ) {$tp++} 
-         elsif ($array[$j][0] == 1 && $j >= $i ) {$fn++} 
-         else {print "Error |$array[$j][0]|\n"; die}
+         if ($array[$j][0] == 0 && $j >= $k ) {$fp=$fp+1}
+         elsif ($array[$j][0] == 0 && $j < $k ) {$tn=$tn+1} 
+         elsif ($array[$j][0] == 1 && $j >= $k ) {$tp=$tp+1} 
+         elsif ($array[$j][0] == 1 && $j < $k ) {$fn=$fn+1} 
+         else {print "Error |$array[$j][0]| $k $j\n"; die}
        }
-       print "i=$i\tTP:$tp\tFP:$fp\tTN:$tn\tFN:$fn\n";
-       if (($tp+$fp)==0 || ($tp+$fn) == 0 || ($tn+$fp)==0 || ($tn+$fn)==0) { 
-         $mcc = 0;
-       }
-       else {
-         $mcc=(($tp*$tn)-($fp*$fn))/sqrt(($tp+$fp)*($tp+$fn)*($tn+$fp)*($tn+$fn));
-         print "Calculating MCC = $mcc\n";
-       }
-       if ($mcc > $bmcc) {$bmcc = $mcc}
+
+     print "$k = tp $tp, tn $tn, fp $fp, fn $fn \n";
+
+
+     if ( ($tn == 0 && $fp == 0 && $fn ==0) || ($tp == 0 && $fp == 0 && $fn ==0 ))  {
+       $mcc=1;
+     }
+
+     elsif ( ($tp+$fp)==0 || ($tp+$fn)==0 || ($tn+$fp) == 0 || ($tn+$fn) ==0 ) {
+       $mcc=0;
+     }
+
+     else { 
+       $mcc = (($tp*$tn)-($fp*$fn))/sqrt(($tp+$fp)*($tp+$fn)*($tn+$fp)*($tn+$fn));
+     }  
+    
+     if ($mcc >$bmcc){$bmcc=$mcc;}
+
      }      
-     print "BMCC = $bmcc\n";
+     print "BMCC = $bmcc\n\n";
      return $bmcc;
 }
 
