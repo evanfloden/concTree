@@ -1,0 +1,716 @@
+   64   612
+Sp1        ---------- ---MMMILLI II-------- -GGVLLGIII FTTMMTMFFS -----SSSWW
+Sp2        ---------- ---MKKVLL- ---------- ---LLLGTTT TTTLLTLFFS -----PPPLL
+Sp3        ---------- ---MTTLLL- ---------- ---VLLGVVV FTTLLTLAAS -----NDDYY
+Sp4        ---------- ---MTTILL- ---------- ---VLLGVVV STTLLTKNNS -----SDDWW
+Sp6        ---------- ---MVVIAAT TT------GG GLLGLLGTTT SMMFFTEDDR -----IDDWW
+Sp7        ---------- -QQLTTILL- ---------- ---FYYGCCC FTTLLTTYYG -----SEEWW
+Sp8        ---------- ---FSSFLL- --------GG GIISLLGTTT LGGYYDLFFS -----NAAWW
+Sp14       ---------- ---LIITLL- ---------- ---FTTGIII DTTVVTMFFS -----KNNNN
+Sp20       ---------- ---LMMIII- ---------- -NNYLLGLLL NAAVVTTFFS -----RDDWW
+Sp22       ---------- -SSFNNLIIA AA-------- -GGEIIGLLL DTTIIKMCCS -----VDDNN
+Sp5        ---------- ---MTTMQQ- ---------- ----RRLYYY SAASSAVYY- -----PDDWW
+Sp9        ---------- ---MKKVLLF FF-------- ------GIII FTTLLTMFFS -----SDDWW
+Sp10       ---------- -RRLTTL--- ---------- ----VVGVVV GTTGGTLPPS -----LDDWW
+Sp11       ---------- ---MEEILLF FF-------- ------GIII FTTLLTMFFS -----NDDWW
+Sp12       ---------- ---AEEVLL- ----KK---- ----TTGIII YTTLLTVSSS -----ADDWW
+Sp13       ---------- ----GGITT- ---------- ----PPGVVV FRRMMDLRR- -----NDDWW
+Sp15       ---------- ---EQQILLF FF-------- ----IIGIII YTTLLPIVVI TFSSSNDDRR
+Sp16       ---------- ---MDDILLF FF-------- ------GVVV FTTIITMFFS -----NDDWW
+Sp17       ---------- ---MYYETT- ----LLAEAA AEEYTTFVVV STTVVTKFFS -----CTTWW
+Sp18       ---------- ---IHHIAAF FF--AA---- ----VVGVVV FTTLLAMFFS -----DDDWW
+Sp19       ---------- ---MEEIAAF FF-------- ------GVVV LTTLLTMFFS -----NDDWW
+Sp21       ---------- ---LQQLAAY YY-------- ------GVVV LTTLLQKFFS -----NEEWW
+Sp23       ---------- ---MDDIAAF FF-------- ------GVVV FTTLLTMFFS -----NDDWW
+Sp24       ---------- ---LDDTAAF FF-------- ------GVVV FTTLLTQFFS -----NDDWW
+Sp25       ------VVVF FIIMSSSAA- ----FF---- ----TTGIII LTTLLTMFFS -----KDDWW
+Sp26       ---------- ---SAAEAAT TT-------- ---GVVFPPP LLLQQTRYYS -----IDDWW
+Sp27       ---------- ---MDDTAAG GGLLFF---- ----IIGVVV LTTLLTMLLS -----NDDWW
+Sp28       ---------- -VVKDDTAA- ----AA---- ----VVGVVV NTTLLTMFFS -----NDDWW
+Sp29       VVDHEKAAAI ICCIKKEAAD DDCCLLK--- ----PPGAAA DAALLNDWWI -----PTTGG
+Sp30       ---------- ---MGGTAA- ----YY---- ----IIGVVV HTTLLTMFFS -----NDDWW
+Sp31       ---------- ---MNNTAA- ----FF---- ----IIGVVV -TTLLKMFFS -----ENNWW
+Sp32       ---------- ---MQQEGGV VV-------- ----TTPGGG TTTFFCGFFT --SSSLGGWW
+Sp33       ---------G GYYLPPTAAE EE--FFKLKK KNNGRRGAAA TTTLLTLFFD -----TNNWW
+Sp34       ---------G GLLMAATAA- ----FF---- ----IIGAAA LTTLLTMFFS -----NEEWW
+Sp35       ---------- ---FLLD--- ---------- ----KKSGGG SIILLTLSS- -----TSSWW
+Sp36       ---------- ---VNNTSS- ----FF---- ----VVGAAA DTTPPTKFFS -----LEEWW
+Sp37       ---------- ---MDDTAA- ----FF---- ----VVGAAA KTTLLTMFFS -----NDDWW
+Sp38       ---------- ----VVTPP- ----FF---- ----AAGPPP -IILL-PFFS -----NGGWW
+Sp39       ---------- ---GDDTKK- ----FF---- ----VVGAAA KTTLLTLFFS -----DDDWW
+Sp40       ---------- ---FDDTAA- ----II---- ----PPGAAA KTTLLTLFFS -----DDDWW
+Sp41       ---------- ---MAAVAA- ----WW---- ----AAGAAA ATTLLTLFFS -----NDDWW
+Sp42       ---------- -AAKNNLDD- ----FF---- ----VVGPPP ATTLLTAYYS -----EDDWW
+Sp43       ---------- ---MLLAAA- ----FF---- ----PPAAAA LTTLLTLYYS -----PDDWW
+Sp44       ---------- ---MGGVAAF FF--QQ---- ----GGGAAA DTTLLTLFFS -----ADDWW
+Sp45       ---------- ---LNNTAA- ----YY---- ----VVGTTT DTTFFTLFFS -----SNNWW
+Sp46       ---------- ---MEETVVK KKEEYY---- ------GAAA PTTLLTLFFK -----SAANN
+Sp47       ---------- ---MDDTAA- ----FF---- ----VVSAAA RTTLLTIFFS -----NDDWW
+Sp48       ---------- ---MEEKTT- ----FF---- ----VVGAAA RTTLLTPFFS -GAAASDDWW
+Sp49       ---------- ---MEETTT- ----FF---- ----VVSAAA STTLLTEFFS -----NDDWW
+Sp50       ---------- ---MAATTT- ----YY---- ----VVSVVV TTTLLAEFFS -----DDDWW
+Sp51       ---------- ---MEETTT- ----FF---- ----VVSAAA ATTLLTEFFS -----DDDWW
+Sp52       ---------- ---MPPTTT- ----FF---- ----VVSAAA ETTLLTEFFS -----DQQWW
+Sp53       ---------- ---MEESVV- ----FF---- ----IISAAA STTLLTEFFS -----KDDWW
+Sp54       ---------- -VVKLLTTT- ----FF---- ----AASIII STTVVTEFFS -----DDDWW
+Sp55       ---------- ---MPPTTT- ----WW---- ----TTVAAA ITTLL-TFFS -----DDDWW
+Sp56       ---------- ---MNNTTT- ----FF---- ----VVSAAA STTLLTQFFS -----DDDWW
+Sp57       ---------- ---MSSTII- ----FF---- ----LLSAAA TTTLLTEFFS -----DDDWW
+Sp58       ---------- ---MVVTTT- ----FF---- ----VVSAAA KTTLLTEFFS -----NDDWW
+Sp59       ---------- ---MVVSTT- ----FF---- ----VVSAAA KTTLLTSFFS -----NDDWW
+Sp60       ---------- ---MVVTTT- ----FF---- ----VVSAAA KTTLLTAFFS -----NDDWW
+Sp61       ---------- ---VEETTTN NNNNAAP--- ----NNTTTT KTTLLIAYYS -----KEERR
+Sp62       ---------- ---MVVTAA- ----II---- ----LLSAAA KTTLLTGFFS -----NDDWW
+Sp63       ---------- ---MVVTAA- ----FF---- ----VVSLLL KTTLLTGLLS -----NDDWW
+Sp64       ---------- ---MIITAA- ----FF---- ----VVSAAA KTTLLTGLLS -----NDDWW
+
+           WFAAWWLLLG LENMMIMMMM I--QRAAALE SSSMKYFSQA AAVSSSSTTT IIIILLP---
+           LYAAWWLLLG LENMMIMMMM L--QRAAALE SSSMKYFSHA AAISSSSTTT IIIILLG---
+           YIAAWWLLLG LEAMMIKKMM T--QRAAALE SSSMKYFNQA AAPAASSTTT SIIILLI---
+           WFAAWWLLLG LENMMIMMMM T--QRAAALE SSSMKYFSQA AAVSSSSSSS LIIILLV---
+           WFGGWWLLLG LEDMMIMMMM E--QSSSSLE SAAMKYFLQA AAISSTTTTT IYYYLLS---
+           WLAAWWFFFG LENIIIMMMM AGPQKGGGIE SSSMKYFGQI IILSSAAAAA ILLLGGS---
+           WFGGWWLLLG LENMMVMMII V--QSVVVLE PSSMKYFSHG GGLTTTTTTT VIIILLN---
+           NFAAWWLLLG LENMMILLMM L--QEAAAVE ASSAKYFSQA AAVSSFFAAA VFFFLLS---
+           WFLLWWLLLG LENMMIFFMM G--KRNNNLE SIIVKYFEQS SSNEEIIAAA IIIILLA---
+           NLLLWWLLLG LEYMMIMMAA K--QGAAALE STTEKYFCQN NNASSIISSS AIIIQQA---
+           WFYYWWLLLG LDNAAILLMM ---GHMMMAE QSSTKYFTQA AAYSSNNRRR YEEEAAA---
+           WFAAWWLLLG LENMMIMMMM L--QPGGGLE SNNMKYFNQA AAASSSSTTT IIIIMMA---
+           WIAAWWIIIG LENMMVAAMM L--QTVVVLE STTFKYFSQA AAMSSSSAAA LVVVVVA---
+           WFAAWWLLLG LENMMIMMMM L--QRAAALE SSSMKYFSQA AAVSSSSTTT IIIILLT---
+           WFAAWWLLLG LENMMVTTMM L--DRAAALE SAAMKYFEQA AAVSSSSAAA VVVVTTA---
+           WYAAWWLLLG AENAAVIILL ---ERPPPKE SKKRKYFSQA AAVSSLLEEE VIIILLA---
+           RITTWWLLLG VEKLLIKKMM I--QKSSSLE SSSMKYFSQS SSVTTIITTT VNNNLLA---
+           WFAAWWLLLG LENMMVMMMM L--QKAAALE SSSMKYFSQA AAVSSIIAAA VIIILLT---
+           WYAAWWLLLG LENMMIMMMM G--ESTTTGE SGGIKYFAQA AAVSSIISSS VVVVRRT---
+           WFAAWWLLLG LENMMIMMMM L--QKAAALE SCCMKYFSQA AAVSSIITTT VIIILLT---
+           WFLLWWVVVG LENMMIMMMM L--QKAAALE SSSMKYFSQA AAVSSIITTT VIIILLT---
+           WLLLWWLLLG IENAAIMMVV L--QRAAALE NCCVKYFGQA AAVSSDDKKK AVVVLLS---
+           WFLLWWLLLG LENMMIMMMM ---ERAAALE SSSMKYFSQA AAVSSIITTT VIIILLT---
+           WFLLWWLLLG LENMMIMMMM I--QKRRRLE TTTMKYFSQA AAVSSIINNN GIIILLT---
+           WFLLWWLLLG LENMMIMMMM A--QKVVVLE KGGMKYFARA AAATTLLNNN AIIILLK---
+           WFLLWWLLLG LENMMVMMKK V--DKSSSLE SSSMKYFSQA AAVSSIIDDD GIIIVVL---
+           WFLLWWLLLG LENMMIMMMM I--QKRRRLE SSSVKYFAQA AAVSSIIHHH KIIILLT---
+           WFPPWWLLLG LENMMIMMMM V--DKRRRLE SSSMKYFCQG GGVSSMMKKK TIIILLT---
+           GFLLWWSSSG IENKKVAAAA K--LNKKKEE SPPYKYFAQA AAVNNIITTT LLLLLLC---
+           WLLLWWLLLG LENMMIMMMM T--QKAAALE SSSMKYFSQA AAVSSIINNN AIIILLT---
+           WFLLWWLLLG LENMMIMMMM V--QKAAALE SSSMKYFSQA AAVSSIINNN AIIILLT---
+           WFIIWWLLLG LENMMISSMM I--DAQQQLE SGGMKYFSQA AANGGVVNNN MEEEAAT---
+           WFLLWWLLLG LEDMMIVVMM V--QKGGGLD PGGVKYFSQA AAVSSMMSSS EIIIPPP---
+           WFLLWWLLLG LENMMIVVMM V--QKGGGLE STTMRYFSQA AAVSSIIDDD AIIILLT---
+           WYVVWWLLLG IESMMIVVAA F--RDGGGLE VGGVKYFAQS SSTAALLHHH QIIIAAT---
+           WFLLWWIIIG LEQIIIVVMM D--EKSSSLE SKKAKYFGQA AAVSSIIAAA TIIIMMG---
+           WFLLWWLLLG LENMMIVVMM V--QKGGGLE SKKMKYFSQG GGVSSIILLL AIIILLT---
+           WFLLWWLLLG LENMMIVVMM V--QKAAALE SKKMKYFSQA AAVSSIILLL SIIILLT---
+           WFLLWWLLLG LENMMVVVMM V--HKGGGLE SQQMKYFSQA AAVTTIILLL AIIILLA---
+           WFFFWWLLLG LENMMIVVMM L--QKGGGLE SKKLKYFSQA AASSSVVLLL AIIILLI---
+           WFFFWWLLLG LENIIIVVAA A--QKGGGLE SKKMKYFTQA AAVSSIILLL AIIITTT---
+           WFFFWWLLLG LENKKIQQMM ---QTGGGLE SKKMKYFSQA AALSSVVLLL TLLLLLL---
+           WFFFWWLLLG LENMMIIIMM V--QTNNNLE NKKMKYFSQA AAASSIILLL DIIILLT---
+           WLYYWWLLLG LEEMMVVVMM N--LNGGGME SKKMKYFTQV VVVSSIILLL SIIILLT---
+           WFFFWWLLLG LENMMIVVMM V--PKGGGYD SKKMKYFSQA AAVSSIIFFF QIIILLN---
+           NFFFWWLLLG LENMMIVVQQ V--QKSSSLE AAAMKYFSQA AAVSSIILLL VIIIVVT---
+           WFFFWWLLLG LENMMIVVMM V--QKGGGLE FKKMKYFSQA AATVVIILLL AIIILLS---
+           WFFFWWLLLG LENMMIVVMM V--QSGGGLE SKKMKYFPEA AAVRRIILLL AIIILLT---
+           WFFFWWLLLG LENMMIVVMM V--QKGGGLE STTMKYFPQA AAVRRIILLL AIIILLT---
+           WIFFWWLLLG LENMMIVVFF N--QKGGGLE CAAAKYFPQA AAVRRVVLLL AIIILLT---
+           WFFFWWLLLG LENMMIVVMM V--QKGGGLE STTMKYFPQY YYVRRIILLL AIIILLT---
+           WFFFWWLLLG LENMMIVVMM L--QREEELE STTMKYFPQA AAIRRIILLL SVVVLLT---
+           WFFFWWLLLG LENMMIIIMM V--QKGGGVE STTMKYFPQA AASRRIILLL AIIILLTTTG
+           WFFFWWLLLG LENMMIVVKK V--QKGGGLE STTIKYFPQA AAVRRIILLL AIIILLS---
+           WFFFWWLLLG LENMMIVVMM Q--QKDDDLE AGGMKYFPQA AAVKKLLLLL AIIILLK---
+           WFFFWWLLLG LENMMIVVMM L--QKGGGLE STTMKYFPQA AAVRRIILLL AIIILLK---
+           WFFFWWLLLG LENMMIVVMM L--QKGGGLE STTMKYFPQA AAVRRIILLL CIIILLNNNT
+           WFFFWWLLLG LENMMIVVMM L--QKGGGLE STTMKYFPQA AAVRRFFLLL AIIILLK---
+           WFFFWWLLLG LENMMIMMMM L--QKGGGLE STTMKYFPQA AAVRRFFLLL AIIILLK---
+           WFFFWWLLLG LENMMIVVMM L--QKGGGLE STTLKYFPQA AAVRRYYLLL SIIILLK---
+           RFFFWWLLLG AENMMIVVII ---QRGGGLE STTLKYFPQA AATRRFFLLL LIIIRRK---
+           WFFFWWLLLG LENMMIVVMM L--KKGGGLE STTMKYFPQA AATRRFFLLL AIIILLK---
+           WFFFWWLLLG LENMMIVVMM L--QKGGGLE STTMKYFPQA AATRRFFLLL AIIILLK---
+           WFFFWWLLLG LENMMIVVMM L--QKGGGLE STTMKYFPQA AATRRFFLLL AIIILLK---
+
+           ---------- ------SSSW DFF------- ------QWW- --TTVSAM-- --SDDNNL--
+           ---------- ------SSSW SF-------- ----NNEWW- --SSVVIG-- --GGGSSV--
+           ---------- ------SSSR NHK------- --GRGGQWW- --AAAKLDTF HHADDSSI--
+           ---------- ------SSSW NFK------- ---TAAQWW- --TTIQIKDF KKSDDKKL--
+           ---------- ------SSSW GQEGG----- --GIDDQYY- --EEIRLK-- --IFFKKLGG
+           ---------- ------SSSR HPKEE----- --EAFFKWW- --PPKIHKF- --GSSKKC--
+           ---------- ------SSSW IAV------- ---FTTDWW- --AALVADK- --NVVAALER
+           ---------- ------PPPE TFA------- ----AAPWW- --EEHNTK-- KKVTTEEF--
+           ---------- ---TLPTTTC DYRSSE--HH HGRKQQAFF- --SSTLCGK- SSGHHEELKL
+           ---------- ------NNNA AFTMML---- -GNQNNQWW- --YYLVAICV GGSDDRRK--
+           -----CCCII EEPKNGPPPT KI-------- -ACGTTK--- --RRGVTQGK ----------
+           ---------- ------SSSW NFK------- -VENKKQWW- --KKEAKAFP --DPPKKG--
+           ---------- ------VVVK FYK------- ---PVVNWW- AAKKRVPNAG TTLLLKKT--
+           ---------- -----PAAAW NGK------- --DN--QWW- --KKKVKGFP --DSSPPG--
+           ---------- ----SAGGGW NYK------- ----PPHWW- --KKKVKDSE ----------
+           ---------- ---QLQPPPD TFIDD----- -PAVAANWWC --RRRRSGEL -----GGK--
+           ---------- ------SSSG HL-------- -GNKEEKWW- --KKKVKPFK --DYYIIQAI
+           ---------- --L---SSSS NFK------- -GTSKKKWW- --EEKVKKFP --DTTPPV--
+           ---------- ----NRSSSN KFK------- ----IIKWWD IIKKNYFEPP ----------
+           ---------- --L---TTTC TAC-----FF FGTSKKKWW- --EEKMKMFP --NTTSSE--
+           ---------- --LATRAAAC AFK------- -AERKKKWW- --EEKVKKFP --DTTPPE--
+           ---------- ---TAQAAAC AAK------- ----FFTWW- --EEKCALLA --DTTKKE--
+           ---------- --LWP-AAAC AFK------- -ATRKKKWW- --EEKVKNFG --DTTPPE--
+           ---------- --LTTSPPPV AFK------- -AARQQKWW- --EEK--TFP --DTTVVE--
+           -----RRRLL HHTNGAPPPV AR------HH HNVRNNKWW- --AAEVKAKE -----AAD--
+           --KKKQQQDD YYESSAGGGS AI-------- -PRTHHQWW- --GGPPRNL- -----KKTNP
+           --KKKAAALL HHT-TSPPPV AFK-----GG GAREGGKWW- --SSEVKEFP -----DDT--
+           --------RR HHT-ADPPPV AF------SS SSKRRRKWW- --PPEPKQFP --DHHAAE--
+           -----YYYEE HHRALFPPPE AH-------- --RERRARR- --QQEKLGFL KKWDDPPQGK
+           -----RRRLL HHT-TSPPPI AFK-----QQ QARVGGKWW- --RRSVKQFP -----SSQ--
+           -----RRRLL HHT--GPPPI AYK-----AA AARAGG-WW- --KKQVKPYP -----SSA--
+           ---------- ---VIQDDDV MYT------- --KQGGR--- --EEGLQPFV ----------
+           ---------- HH--PAPPPV TAV-----GG GTR---MWW- --IICVKGES --GGGAAQ--
+           --DDDLLLLL HHSDPSPPPI AFQ-----AA AIRAGGKWW- --TTEVKEFP -----SSE--
+           ---------- ---DPGDDDA L-------LL LISKKKEGG- --KKKAQRPY VVYQQAATTV
+           -----CCCLL HHS-PKPPPI AFN-----SS SARDEEKWW- --SSSVKEHP ---GGVVS--
+           -----RRRMM HHT-PAPPPI AFK-----AA AARAGGKWW- --SSEVKERP -----GGT--
+           -----RRRQQ SS--RSPPPL AFK-----TT TSRLAAKWW- --NNEIKERS --GTTGGQ--
+           -----RRRMM QQS-PSPPPI AFK-----SS SARVVVKWW- --TTE--EDP -----GGT--
+           -----QQQMM HHE-PSPPPA AFK-----SS SARAGGKWW- --SSEVKQQP -----GGT--
+           -----QQQMM HHS-PSPPPR VFK-----AA AHG---KWW- --SSEVADPP -----GGG--
+           -----NNNVV IIEIPGHHHI AFK-----II ITVVGGDWW- --VVG-TDPP -----SSR--
+           -----QQQMM QQS-PSPPPM IFK-----PP PEK---KWW- --TTEVTNCS -----GGA--
+           -----QQQEE GGHRQQPPPP LL-------- -YKYKKAWW- --PPE----- -----GGE--
+           ---------- QQQISGPPPV VVD------- ----KKDWW- --PPDITHDG ---SSCCG--
+           ---------- ---LSAPPPI VLS-----HH HETREEGWW- --QQEAT--- -----GGQ--
+           ---------- QQI-PTVVVI VLT-----TT TTR-NNAWW- --TTDVAEAG --CGGCCK--
+           ---------- QQV-PCPPPI VLA-----TT TLQWKKDWW- --TTEVTEQT --CFFCCG--
+           --QQQIIIQQ PPVS-----K VMA---KYEE EQLQKKDWW- --TTEVTEEV --CAACCG--
+           --QQQIIIQQ PPV-PGPPPK VMAEECKY-- --LQKKDWW- --TTEVV-HV --CAASSH--
+           --NNNIIIQQ PPVPPGPPPK VMA---KY-- -HLQKKDWW- --TTEVVEDV --CAASSG--
+           --QQQLLLHH PPV-HGPPPK VKARRLKY-- --LRKKSWWV KKTTEIVANV --CPPSSS--
+           GGLLLTTTHH PPV-PGPPPK VM----KY-- --LPKKDWW- --TTEVVDDV --CAASSP--
+           --QQQLLLHH PPV-PGPPPK VIA---KY-- --LKKKEWW- --TTEVVEKT --CAAAAT--
+           --EEEVVVKK KKIPGPHHHN VM------TT TLLQAAKWWA DDVVDLQEHY NNCAAAAG--
+           --QQQVVVNN PPVPPGPPPK VMA---KY-- --LQKKDWW- --QQEVVEDV --CAASSA--
+           TTVVVVVVQQ PPVPPAPPPK VFL---RTYY YHLEKKDWW- --QQEVPNSV --CKKSST--
+           ---------- PPVPPGPPPI VMARRTNY-- --LQKKDWW- --TTEVVTDV --CAASSA--
+           ---------- PPVPPGPPPI VMARRTKY-- --LQRRDWW- --TTEVIEDI --CAASSA--
+           ---------- PPVPPGPPPI VMARRVRY-- --LQKKDWW- --TTEVIDAM --VAAEEA--
+           ---------- GGMPPGSSSR VRA---RTYY YALKRRDWW- --SSGVVPTA -----GGH--
+           ---------- PPVPPGIIII VMARRTKYEE EGLRKKAWW- --TTEVVEDM --CAASSA--
+           ---------- PPVPPGQQQI VMARRTKYEE EGLQKKDWW- --TTEVVEDM --CAASSP--
+           ---------- PPVPPGPPPI VMARRTKYEE EGLQKKDWW- --TTEVVEDM --CAASSP--
+
+           IIITTIII-- ------LALS LLLAAPLLLF FWLEVQV--- --------NL DDGLLI----
+           TTTVVIII-- ------RALL LFLAAPLLLF FWLEVQA--- --------DI DDGLLV----
+           TTTIIIII-- ------FALA LLLAAPLLLF FWLEVHV--- --------NL TTGLLN----
+           AAAIIIII-- ------LALL LLLAAPLLLF FWLQVQVV-- --------DL NNGLLI----
+           GGGIILLI-- ------ITAL LLLPPPVVVF FWVQVQI--- --------VI VVTLLA----
+           GGGTTIII-- ------LALL KLLPPPLLLF FWQPVQI--- --------EN LLDQQI----
+           GGGMMIII-- ------IPIL LVLPPPSSSY YWLQVD---- --------VQ LLSLLI----
+           PPPIIIIL-- ------VIAL QLPVVPLLLF FWINVQI--- --------VI LLGLLF----
+           DDDFFVVTDS SSKFFFKLAK LLFAAPFFFF FRERVQG--- --------TP FFGLLI----
+           GGGSS----- ------VGAL LLLPPTLLLL LWLQVQ---- --------PL LLAIIV----
+           ---------- ------FVGL K-VPPPLLLK KWNVVMM--- ----EEEE-R FFGLLNGGSS
+           -----LLI-- ------EALL K-LPPPLLLF FWLQVQ---- --------VN LLGLLI----
+           ---KKIIK-- ------LGLA SRAPPQLLLF FWPQVPI--- ---DKKKKPR LLGKKT----
+           ---AAIII-- ------NALL K-LPPPLLLF FWLQVQ---- --------VI LLGLLI----
+           -----III-- ------VALL K-MAAPLLLY YWLQVQ---- --------PV LLGLLI----
+           ---AAII--- ------IAEH K-LPPPFFFN NWVIVR---- --------VT FFGFFI----
+           GGGKKIII-- ------LALL K-IPPPFFFF FWIEVR---- --------IV LLPLLT----
+           -----III-- ------LALL K-LPPPFFFF FWFQVQ---- --------VV LLGLLI----
+           AAAEELLA-- ------VAAP K-LPPPFFFF FWFEVK---- --------DL LLSLLV----
+           -----III-- ------LALL K-LPPPFFFF FWLQVQ---- --------VV VVGLLI----
+           -----VVI-- ------LALL K-LPPPFFFF FWLQVQ---- --------VI LLGLLL----
+           -----VVI-- ------TALL K-LPPPFFFL LWINVQV--- ----FFFFHI LLGLLI----
+           -----MMI-- ------LALL K-LPPPFFFF FWLQVQ---- --------II LLGLLI----
+           -----VVI-- ------LALL K-LPPPFFFF FWLQVQ---- --------VT LLGLLI----
+           ---LLAAV-- ------LALL K-LPPLFFFF FWMEVQ---- --------LE LLGLLI----
+           NNNLLDDKT- --S---QALL K-LPPPFFFF FWLGVQM--- ----VVVV-K LLGLLI----
+           ---PPIIVI- ------LALI K-LPPPFFFF FWLQVQ---- --------IN LLGLLI----
+           ---IITT--- ------LALA K-LPPPFFFF FWQDVQ---- --------IN LLGLLI----
+           GGGFFVV--- ------VAVQ K-VPPP---L LWAHVVKTII IIDDSSSSLG LLDTTIRRKK
+           ---LLIIVT- ------LALI K-LPPPPPPF FWLQVQ---- --------IE LLGLLI----
+           ---LLQQVT- ------LALI K-IPPPPPPF FWLQVQ---- --------IE LLGLLI----
+           ---FFII--- ------KAAI N-VPPPVVVD DWKSVQ---- ---------I VVGLLG----
+           ---PPTT--- ------IAML K-LPPPYYYF FWLQVA---- ---------D LLGLLI----
+           ---LLVVVS- ------IALI K-IPPPPPPF FWLQVQ---- ---------T LLGLLI----
+           LLLYYIIG-- ------SAVA K-IPPPIIID DWKKVK---- ---------G LLSLLL----
+           ---LLVVVS- ------MALI K-IPPPPPPF FWLQVQ---- ---------V LLGLLI----
+           ---LLVVVS- ------LALI K-IPPPPPPF FWLQVQ---- ---------V LLGLLI----
+           ---LLVVVS- ------LALI K-IPPPSSSF FWMQVQ---- ---------V LLSLLI----
+           ---LLVVVA- ------LALI K-VPPPPPPF FWLQVQ---- ---------V LLSLLI----
+           ---LLVVVS- ------LALI K-IPPPPPPF FWLQVQ---- ---------V LLSLLI----
+           ---LLVVVSE EEL---LALI K-IPPPPPPF FWLQVQ---- ---------V LLSLLI----
+           ---VVLLVD- ------SAHM K-IPPPAAAL LWLQVQ---- ---------A LLSLLI----
+           ---IIVVVS- ------LALL K-IPPPPPPF FWLQVQ---- ---------V LLTFFI----
+           ---VVAAVT- ------PAHI H-IPPPLLLF FWLQVQ---- ---------I YYRLLI----
+           ---IIVVD-- ------LALI K-LPPPPPPY YWVEVQ---- ---------V LLRLLV----
+           ---CCCCLPV VV----LALI K-VSSPCCCF FWMQVQ---- ---------V LLRLLT----
+           ---SSVVS-- ------FALI K-IPPPPPPF FWLQVQ---- ---------V LLALLI----
+           ---PPVVS-- ------LALI K-IPPPPPPF FWLQVQ---- ---------R LLRLLI----
+           ---PPVVS-- ------LALI Q-IPPPPPPF FWLQVQ---- ---------V LLRLLI----
+           ---PPVVA-- ------PALD Q-IPPPPPPF FWLHVQ---- ---------I LLRLLI----
+           ---PPVVS-- ------LALV Q-IPPPPPPF FWLQVE---- ---------V LLRLLI----
+           ---HHVVG-- ------LALP Q-IPPPPPPF FWLQVQ---- ---------L LLRLLI----
+           ---PPVVS-- ------LAKV Q-IQQPPPPF FWLQVQ---- ---------G LLRLLI----
+           ---PPVVV-- ------LALV Q-APPPPPPF FWLQVQ---- ---------V LLRLLV----
+           ---PPVVA-- ------LALV E-IPPPPPPF FWLQVQ---- ---------Y LLPLLP----
+           ---PPVVS-- ------LALA Q-IPPPPPPF FWLQVQ---- ---------V LLRLLI--LL
+           ---EEIIS-- ------LALG Q-IPPPNNNF FWLQVQ---- ---------V LLRLLI----
+           ---PPVVS-- ------LALV Q-IPPPPPPF FWLQVQ---- ---------V LLRLLI----
+           ---PPVVS-- ------LALV Q-IPPPNNNY YWLAVQ---- ---------V LLRLLI----
+           ---PPVVS-- ------LALV Q-IPPPPPPF FWLQVQ---- ---------V LLRLLI----
+           ---TTVVS-- ------VTAI Q-LPPPPPPF FWLQVQ---- ---------V LLKLLI----
+           ---PPTTS-- ------LALV Q-VPPPPPPF FWLQVQ---- ---------V FFRLLI----
+           ---PPVVS-- ------LALV Q-VPPPPPPF FWLQVQ---- ---------V LLRLLI----
+           ---PPVVS-- ------LALV Q-IPPPPPPF FWLQVQ---- ---------V LLRLLI----
+
+           -WWWWQKKLL L--LLL--LL LVV------- -----N---L LIII---VSS G---------
+           -WWWWQKKLL L--LMM--HH HVV------- -----V---H VEEEGG-VSS ----------
+           -WWWWQKKLL L--LLL--AA AVV------- -----G---Y IIII---VSS G---------
+           -WWWWQKKLL L--VLLDDQQ QVV------- -----D---Y IIII---VSS G---------
+           -WWWWQKKLL L--RLLKKSS SSS------- --LLYE---Y PAAA---SSS G---------
+           -NNNNQKKLL L--IVV--CC CVV------- -----S---E LVVV---AGG G---------
+           -WWWWQNNLL L--IDDNNLL LYY------- -----V---M SVVV---ASS G---------
+           -WWWWQKKLL L--CLLSSSS SSS------- -----Y---F QFFF---VGG E---------
+           -----QKKLL L--TMMIIVV VLLGNDPGHH TTSSQA---L VLLLGG-PSS R---------
+           -VVVVQKKLL L--TAAWWII I--------- -----I---Q PLLL---IVV G---------
+           PEEEEKKKGG G--LPPDDGG GPP------- ----RS---S STTTIIPLPP AKKA------
+           -WWWWQKKLL L--LLLVVVV V--------- -----I---Y YIIILL-LSS ----------
+           -YYYYQKKII I--VLLYYSS SHHV------ -----R---G IKKK---TSS K---------
+           -WWWWQKKLL L--KLLLLVV VSS------- ----NA---Y IIIIII-VSS N---------
+           -WWWWQKKVV V--HLLFFAA AEE------- ----PI---Y LIIIII-FSS K---------
+           -TTTTEKKLL L--ELL--CC CFF------- -----K---F AYYYTT-FSS ----------
+           -RRRRQKKGG G--TRRLLVV VSS------- ----ED---H SIIIII-VSS D---------
+           -WWWWQKKLL L--LLLSSVV VSS------- ----EC---Y SKKKVV-VSS K---------
+           -WWWWRKKLL L--NLLQQVV VCCTV----- ----VL---K KVVV---LSS K---------
+           -WWWWQKKLL L--ILLLLVV VSS------- ----EG---Y SIIIVV-VSS K---------
+           -WWWWQKKLL L--ILLLLVV VSS------- ----EG---Y AIIIVV-VSS K---------
+           -WWWWQKKLL L--VIILLQQ QGG------- -----L---Y SIIIVV-VSS K---------
+           -WWWWQKKLL L--RLLLLVV VSS------- ----EG---G AIIIVV-YSS K---------
+           -WWWWQKKLL L--ILLLLVV VSS------- ----QN---T KIIIVV-VSS K---------
+           -LLLLQKKLL L--RLLIIVV VFF------- -----K---T NVVVYY-VSS K---------
+           -TTTTQKKLL L--ILL--RR RNNET----- ----VS---A KVVVVV-VSS I---------
+           -WWWWQKKLL L--ILLAAVV VNNE------ -----A---P KVVVVV-VSS K---------
+           -RRRRQKKLL L--VLL--AA AYYD------ -----A---S SVVVVV-QSS K---------
+           PAAAAPAALL LFYALLLLSS SYY------- ----PE---G MCCCRR-INN VKKYYALLRR
+           -WWWWQKKLL L--ILL--LL LYYE------ -----K---P KVVVVV-VSS KGGF------
+           -WWWWQKKLL L--ILL--II IYYE------ ---------P KVVVHH-VSS K---------
+           -WWWWHKKLL L--TLLPPNN NEEL------ ----TQ---S VIIIAA-YSS A---------
+           -WWWWQKKLL L--TLLLLVV VLLY------ -----G---G QVVVMM-TDD ----------
+           -WWWWQKKLL L--VLL--II IYYA------ ---------P KVVVVV-VSS K---------
+           AAAAAQKKLL L--LVVKKRR RNN------- -----L---N PKKKKK-KQQ A---------
+           -WWWWQKKLL L--VLL--YY YYYEP----- ----TG---S MVVVVV-SSS K---------
+           -WWWWQKKLL L--VLL--II IYYD------ -----G---N KVVVVV-VSS K---------
+           -WWWWQKKLL L--VLL--KK KYYN------ -----G---E KLLL---VSS R---------
+           -WWWWQKKLL L--VLL--II IVVD------ -----G---D KVVVII-VSS K---------
+           -WWWWQKKLL L--VLL--KK KYYD------ -----A---D KVVVII-VSS K---------
+           -WWWWQKKLL L--VLL--II IYYG------ -----G---L KVVVII-VSS K---------
+           -WWWWQKKLL L--ILL--FF FMM------- -----G---S RVVVVV-ASS Q---------
+           -WWWWQKKLL L--VVV--KK KYYD------ -----G---P KLLLII-ISS ----------
+           -WWWWQKKLL L--LAAEE-- ---------- -----K---- RAAA---VSS R---------
+           -WWWWERRLL L--SLL--II IYY------- -----D---K KLLLVV-ISS ----------
+           -WWWWQKKLL L--ILLQQVV VKK------- -----EGGGG KEEE---SSS K---------
+           -WWWWQKKLL L---LL--II ITT------- -----GNNNA KVVVVV-VSS ----------
+           -WWWWQKKLL L--ALL--II IYY------- -----G---G KVVVTT-VSS ----------
+           -WWWWQKKLL L--VLL--NN NYY------- -----G---A KVVVVV-ASS K---------
+           -WWWWQKKLL L--VLL--AA AYY------- -----S---V LLLL---ASS L---------
+           -WWWWQKKLL L--VLL--NN NYY------- -----G---G KVVVVV-SSS M---------
+           -WWWWQKKLL L--VLL--HH HYY------- -----S---G SEEEAA-ASS M---------
+           -WWWWQKKLL L--TLL--AA AYY------- -----G---G -VVVVV-PSS MAAM------
+           -RRRRQKKLL L--ALL--VV VYY------- -----G---G KVVVVV-GSS MSSM------
+           -WWWWQKKLL L--CLLEEVV VHH------- -----Y---G NVVVLL-DSS SAAM------
+           GWWWWQKKLL L--VLL--AA AFF------- -----G---G KVVVVV-ASS MSSM------
+           -WWWWQKKLL L--DLL--TT TFF------- -----A---D KVVVGG-QSS LSSM------
+           -WWWWQKKLL L--VLL--AA AFF------- -----G---G KVVVVV-ASS LSSM------
+           -WWWWQKKLL L--VLL--AA AFF------- -----V---G TVVVVV-ASS LSSM------
+           -WWWWQKKLL L--VLL--AA AFF------- -----G---G TVVVVV-ASS LSSM------
+           -WWWWEKKLL L--ILLRRNN NII------- -----S---F TVVVAA-PSS FPPL------
+           -WWWWQKKLL L--VLL--KK KFF------- -----G---G TVVVVVHASS LSSM------
+           -WWWWQKKLL L--VLL--AA AFF------- -----G---G TVVVVV-ASS LSSL------
+           -WWWWQKKLL L--VLL--AA AFF------- -----G---G TVVVVV-ASS LSSM------
+
+           -VR-GLQQLL LASSSHHWWV VM-AVSAA-L SSSSWWW--- ---------- ------TTLI
+           -SF-GLQQLL PASSSHHWWL LK-TVTVV-L NNNNWWW--- ---------- ------TTLI
+           -GI-GFQELL LASSSHHWWV VM-ALALL-L TTTTWWW--- ---------- ------PPLI
+           -SA-GLQQLL LASSSHHWWV VM-AESSS-L KKKKWWW--- ---------- ------PPLI
+           -GF-GLQLAA LASSSHHWWV V----AKK-L TTTTWWW--- ---------- ------PPLI
+           -GFVGLQQLL LATTTHHWWV VL-ASGGG-L TTTTVVV--- ---------- ------PPLI
+           -GR-GLQQTT NATTTHHWWV VM-RQKPP-K AAAAIII--- ---------- ------PPVL
+           -GQ-GLQHLL LATTTHHWWV VI-EVEEE-C VVVVWWW--- ---------- ------KKLF
+           -KGYGLDEII LAKKKHHWWT T----KGG-C LLLLWWW--- ---------- ------EELR
+           -GLAGLQQLL LAPPPHHWWV VN-DRTHH-L EEEEIII--- ---------- ------SSVI
+           SAMFGFRKTT KDSSSHHLLM M-PFRNTTRA LLLLEEED-- ---------- ---DDMKKPA
+           -GGYGLQQLL LATTTHHWWV VMQADSAA-C LLLLSSS--- ---------- ---WWVSSLI
+           VGAFGLQQLL LATTTHHWWV V--LRS--TL GGGGWWW--- ---------- -----VSSLI
+           QGGFGLQQLL LATTTHHWWI IM-ADSAA-C LLLLSSS--- ---------- ---YYVSSLI
+           -GGFGLQQLL LATTTHHWWV VVYAKKAA-C FFFFSSS--- ---------- --SWWVDDIV
+           LGGAGLQQLL LAPPPHHWWV VL------AA LLLLWWW--- ---------- -----YGGFA
+           PGGFGLQAYY LAAAAHHWWV V--PYT--SC LLLLWWW--- ---------- ---WWVSSVI
+           AGGFGLQQLL LATTTHHWWI IM-SDS---C LLLLRRR--- ---------- ---WWVSSLI
+           VGVFGLQQLL MANNNHHWWV V-------HC LLLLLLL--- ---------- ---SSVGGLV
+           PGGFGLQQVV LATTTHHWWV VM-EDS---C YYYYWWW--- ---------- ---WWVSSLI
+           AGGFGLQQVV LATTTHHWWV VM-EDSAA-C LLLLWWW--- ---------- ---WWVSSLI
+           EGGFGLQQVV LATTTHHWWI II-VEHTT-A LLLLWWW--- ---------- ---WWFSSLI
+           IGGFGLQQVV VATTTHHWWA AM-VEAAAAC LLLLRRR--- ---------- ---WWISSLT
+           IGGFGLQQVV LATTTHHWWV VV-VESAA-C LLLLWWWA-- ---------- --SWWISSLI
+           IGGFGLQQLL LATTTHHWWV V--LI---AC IIIIWWW--- ---------- -----LTTVI
+           LGG-GLQQTT LAIIIHHWW- ---GTN--TY LLLLWWWP-- ---------- ------SSLI
+           IGGFGLQQVV LATTTHHWWV V--VFE--SC LLLLWWW--- ------SSS- --------LI
+           IGGFGLQQVV QATTTHHWWV V--GPH--SC LLLLWWW--- ---------- -----LSSLI
+           IGG-GLQEAA QATTTHHWWL L--RGR--GK IIIIRRR--- ---------- --PAAVSSKD
+           IGGFGLQQVV LATTTHHWWV V--MPQ--SC LLLLWWW--- ------SSS- --------LI
+           IGGFGLQQVV LATTTHHWWV V--MPE--WC LLLLWWW--- ------SSS- --------LI
+           KGKVGHQQVV QATTTHHWWA ASNLNTAAKC LLLLWWW--- ---------- ---GGQSSFI
+           GAVFGLQKVV LATTTHHWWL L--KAE--TP VVVVWWW--- ---------- -----EEELV
+           VGGFGLQQVV LAQQQHHWWV V--MPD--SC LLLLWWW--- ------SSS- --------LI
+           HGTYGLQACC KEGGGHHWWV V-------AA VVVVWWWKDP RR-------- --GIILKKSI
+           IGGLGLQQVV LATTTHHWWV V--LPY--SP LLLLWWWG-W --AATTSSST TVGRRYHHLI
+           IGGFGLQQVV LATTTHHWWV V--MPQ--SC LLLLWWWT-L --II--SSST T-----QQLI
+           TGGRGLQAVV LATTTHHWWV V--MPE--SC LLLLWWWH-K --II--SSS- ------PPLI
+           IGGFGLQEVV LATTTHHWWI I--MVE--NV LLLLWWWT-L --II--SSST T-----QQQI
+           IGGFGLQEVV LATTTHHWWV V--MPD--SC LLLLWWWE-L --LL--SSSS SK----QQQI
+           IGVFGLQETT LAAAAHHWWV V--KPE--SC LLLLWWWT-L AALLIIAAAL LP---SHHLI
+           IGVFGLQEAA VATTTHHWWV V--LPD--RC LLLLWWW--- ------SSS- -----ITTII
+           -GGFGLQEVV LATTTHHWWV V--TPE--SC VVVVWWWT-- --LLIIAAA- ------QQLI
+           VGGFGLQKVV IATTTHHWWV VF------RC LLLLWWW--- ------SSS- -----EMMVI
+           IGDAGLQQVV LATTTHHWWV V--MPE--SC LLLLFFF--- --HHIIPPP- ---PPIQQDI
+           IGG-GLQKVV LATTTHHWWV V-VMPG--SS VVVVWWWSQA SSPPVVSSS- -----LKKAI
+           IGGFGLQEVV LATTTHHWWV V--MPESSHC LLLLWWW--- QQII--SSS- -----IQQGI
+           IGGFGLQEVV LATTTHHWWV V--MPESSDC LLLLWWWT-L QQIIFFSSS- -----IQQAI
+           IGGFGLQEVV LATTTHHWWV V--MPESSHC LLLLWWWP-L QQIIFFSSS- -----IQQAI
+           IGGFGLQEFF LATTTHHWWV VKSLCQAADA LLLLWWWN-L QQVVRRSSS- -----RRRAI
+           IGGFGLQEVV LATTTHHWWV V--MPESSHC LLLLWWWA-L QQIILLSSS- -----IQQAI
+           IGGFGLQEVV LATTTHHWWV V--MPESSRC LLLLWWWS-L QQLLEESSS- -----IQQSI
+           VGNFGLQEAA LATTTHHWWV V--MNESSHC LLLLWWWS-L RRVVFFSSS- -----IKKAI
+           IGGFGLQEVV LATTTHHWWV V--RSESSHC LLLLWWWA-L QQIIYYSSS- -----IQQAI
+           IGGLGLQEII LATTTHHWWV V--MPA--GC TTTTWWWS-L QQDDNNGGG- ---PPIVVQI
+           IGGFGLQEVV LATTTHHWWV V--MPESSNC LLLLWWWS-T EEIIFFKKK- -----IQQAI
+           IGGFGLQEII LATTTHHWWV V--MPDSSNS VVVVWWWSDL EEIIFFAAA- ---GGIPPFI
+           IGGFGLQEVV LATTTHHWWV VEYMSESSNC AAAAWWWR-L PPMMFFSSS- -----IQQAI
+           LGGFGLQEVV LAEEEHHWWV VEYMADSSDC AAAAWWWR-L PPMMFFSSS- -----IQQPI
+           FGGFGLQEVV FATTTHHWWV VEYMAESSDC AAAAWWWR-L PPMMFFTTT- -----IQQAI
+           IGGLGLQELL LAVVVNNWWV V----QSSSC AAAAWWWA-- --AALLSSS- ---IIIDDAI
+           SGGFGLQEVV LATTTHHWWV VQYMGSSSSC AAAAWWWS-L PPMMFFSSS- -----IAAAI
+           IGGFGLQEVV LATTTHHWWV VQYMGASSNC AAAAWWWS-L PPMMFFSSS- -----VQQAI
+           IGGFGLQEVV LATTTHHWWV VQYMGASSNC AAAAWWWS-L PPMMFFSSS- -----IQQAI
+
+           NFIIFFV--L LQLL------ ---------- ------NSTT SDMMMM---- ---KT-----
+           NFIIFFA--V VTVV------ ---------- ------DCTT SDFFFF---- ----------
+           NFIIFFL--R RHGG------ ---------- ------YFII SERRRR---- ---KS-----
+           NFIIFFI--L LGLL------ ---------- ------KSAA SDMMMM---- ---ST-----
+           NRVVFFTCCL LDSS------ ---------- ------NAAA SNAAAA---- ---P------
+           NTVVIITGGV VCCC------ ---------- --LHHHPYTT SDWWWW---- ---HA-----
+           NRRRMMH--C CDPP------ ---------- --HLLLAATT CDIIII---- ---KT-----
+           KAVVFFTSSL LMLLF----- ---------- --PLLLGKPP CNLLLL---- ---KA-----
+           DKVVFFIAAY YLLL------ ---------- --PIIIDAVV KILLLL---- ---DT-----
+           RIHHYYGGGG GCRRA----- ---------- --LMMMDSSS TTNNNN---- ---KGNM---
+           NVSSSS-QQC CILLIIICC- ------GGVV --VDDDAACC KPLLLL---- --GA------
+           NRAAFF-KKT TCLLLFFII- ---------- ---LLLDGTT SDLLLL---- ---NTW----
+           TVYYFFGTTQ QDLLVVV--- ---------- ------DNRR TDTTTT---- ---RMRI---
+           NRIIFF-KKT TCLLLFFFF- ---------- --PLLLDSTT SDLLLL---- ---NTW----
+           DWIIFF-KKA ACYYMYYCC- ---------- --GSSSDGTT RNFFFF---- ---KTS----
+           NKEEFF-TTL L--------- ---------- --F----SPP DN-------- ----------
+           NFIIFFLTTG GGLLYFFFF- ---------- --PFFFDSPP ISLLLL---- ---KTF----
+           NNIIFF-KKL LVLLLFFII- ---------- --GSSSESAA SELLLL---- ---KTW----
+           DNIIFF-SSI IMMMFIIVV- ---------- ------QRPP VTSSSSSSFF FRQKTWA---
+           NKIIFF-KKI IILLLAAII- ---------- --QVVVDSPP VELLLL---- -HKKTV----
+           NKVVFF-KKI IILLLFFII- ---------- --GLLLDSPP AALLLL---- ---KTL----
+           NQLLFF-LLN NALLLFFII- ---------- --DLLLDSTT AALLLL---- ---DTR----
+           NKVVFF-KKI IILLLII--- ---------- --PLLLSDPP SAIIII---- -IFKTL----
+           NAVVFF-KKL LILLLFFII- ---------- --PLLLSSPP STMMMM---- ---KTL----
+           HKLLFF-SSL LILLLFFIIH HI----AALL --L---NAPP NTLLLL---- ---KTL----
+           HKTTFF-KKV VQLLLYYII- ------GGLL KK----SKAA TYQQQQ---- ---KGMA---
+           HKVVFFDKKL LILLLFFII- ------GGLL --L---NSEE ATLLLL---- ---KTLP---
+           HKMMFF-KKT TKLLLFFII- ------GGLL GGEQQQSNPP ATLLLL---- ---KTAP---
+           HSVVLL-TTL LGLLMLLTT- ---------- --LGGGMDYY AALLLL---- ---DLES---
+           HKVVFF-SSL LILLLFFII- ------GGLL --S---NSPP ASLLLL---- ---KTLP---
+           HKVVFF-AAL LVLLLFFII- ------GGLL --L---NSPP ASLLLL---- ---KTLP---
+           HNVVIIDLLL LEHHLQQLLL LLSALLSSSS VVSFFFTSKK IAIIII---- ---KALP---
+           HKVVFF-SSV VIVVVFF--- ------NNVV --SGGGSTPP AAMMMM---- ---KTK----
+           HRVVFF-SSI IILLLFFVV- ------GGAA --F---NSPP GSLLLL---- ---KTLA---
+           HKVVFF-SSL LKIILKKEE- ---------- ------SFKK VCPPPP---- ---GGVL---
+           HKVVFF-TTI IILLLFFVV- ------GGLL --M---SNPP A-LLLL---- ---KTLP---
+           HKVVFF-TTI IILL------ ------GGLL --F---NNPP ASLLLL---- ---KTLP---
+           HKVVFF-TTI ILLLLHHNNN NV----GGLL --LAAAAQII LLLLLL---- ---KTRP---
+           HKVVFF-TTA AILLLFFIIV VTC-YYGGLL --F---DSPP CSLLLL---- ---KGAP---
+           HKVVFF-TTI IISSLFFII- ------GGLL --L---ANPP ASLLLL---- ---KT-----
+           HKVVFF-TTI IILLFRRVV- ------GGLL --A----KSS AALLLL---- ---KTQT---
+           HKIIFFADDH HLFFEEEWWV V-----GGLL --F---PGSS SQEEEE---- ---NTFR---
+           HKVVFF-TTV VVLLLFFVV- ------GGLL --F---GDSS AMLLLL---- ---KTHA---
+           QKVVFF-AAL LEFFVTT--- ------GGFF QQSEEEKKII SGWWWW---- ---EKSQ---
+           RKGGFF-AAV VILLLKKIIV VF----GGHH --L---QDPP GG-------- --GSTGPKKK
+           HHTTFF-TTF FKVVIHHIIV VA----NNLL --Y---AESS ASFFFF--PP PDFPTLL---
+           HKTTFF-TTV VDLLLHHLLI II----GGLL --P---SSSS SSFFFF---- ---KTAT---
+           HKTTFF-TTV VILLLRRIII IF----SSLL --G---ADSS ATYYYY--WW WVVKTGP---
+           HKTTFF-TTV VILLL--TTI IIV---EELL --A---ADSS AGHHHH---- ---KTPS---
+           HDTTFFHTTL LILLM--TTI IL----VVFF EEG---ADSS QGHHHH---- ---KTGP---
+           HKTTFF-TTV VILLL--TTI IIIEQQEELL --G---ADSS AGHHHH---- ---KTPS---
+           HKTTFF-TTL LIFFLGGSSI IIM---EELL --A---ADSS EGMMMM---- ---KTQP---
+           HKTTFF-AAV VILLL--TTI ITHEYYEETT QQL---ADSS PGHHHH---- ---KTPP---
+           HKTTFF-TTV VILLL--III II----AALL --A---ADAA AAHHHH---- ---KTAP---
+           HKRRFF-NNV VMAALAAIIV V-----DDLL ------SQPP TSHHHH---- ---RTAP---
+           HKTTFF-VVV VILLL--TTI IV----EELL --A---ADSS APHHHH---- ---KTPQ---
+           HAGGFF-KKV VLLL-----I IV----DDLL --CAAAAVEE ANHHHH---- ---KTPA---
+           HMTTFF-TTV VQLLL----V VV----EELL --A---ADSS APHHHH---- ---KTPP---
+           HVTTFF-TTV VELLL----V VV----EELL --S---TDSS FPHHHH---- ---KTIP---
+           HMTTFF-GGV VQLLL----I IV----EELL --A---ADSS APHHHH---- ---KTVP---
+           HATTFF-SSC CVDDLLLTT- ------AAII --VSSSNSSS QN-------- ---RTGL---
+           HMTTFF-SSV VQLLL----I IV----EEHH NNV---ANSS APHHHH---- ---KTVR---
+           HMTTFF-SSV VQLLL----I IV----EELL --V---ADSS APHHHH---- ---KTVR---
+           HMTTFF-SSV VQLLL----I IV----EELL --V---ADSS APHHHH---- ---KTVR---
+
+           ------SLLC -LVVLGLPPF FTTFFL---L LS------NN LISS------ ---------S
+           -------KKC -LTTLGLPPF FTTFFL---F FS------KK LIWW------ ---------S
+           ------PSSC -LIILGLPPF FTTFFL---L LN------NN LVPP------ ---------A
+           -------KKC -LVVLGLPPF FTTFFV---L LSSS-EEEDD LIWW------ ---------S
+           -------AAC -LPPLGLPPF FTTFFA---A AS------VV LVRR------ ---------I
+           ------SKKN PLSSLGLPPF FTTFFL---L LS------DD LVKK------ ---------K
+           ------KGGC -LSSLGLPPY YSSLLV---L LS------GG LIRR------ ---------D
+           ------PLLG -LTTLGLPPY YVVFFI---Y Y-------VV LIRR------ ---------L
+           ------PPPA TLPPLGLPPF FAAAAR---L LGEE-AAAQQ LGPP------ ---------S
+           ------MGGA SMPPLKLPPF FCCFFV---F FN------EE LVLL------ ---------S
+           -----QKMMN LHGGPTLAAK KAARR----V V-------SS VVDDEE---- --------DK
+           -------SSA L-TTLGLPPF FAAFFL---L LS------EE LSRR----GG MMEEQQGGAT
+           -----QKVVY L-TTLELPPF FTTFFP---P PS------HH VIRR------ NNLLVVVVLH
+           -------TTS L-TTLGLPPF FTTFFL---L LS------EE LIRR----LL LL------LT
+           -------PPD LSTTLGLPPF FCCFFI---L LA------QQ LITTLL--LL TTEEHHWWLM
+           -----NKSSE --PPLAVPPM MPPFFL---C C-------RR LINN------ ----HHWWYG
+           -----PAFFS VLAALGLPPF FNNFFV---L LC------GG HIRR------ --------LN
+           -------TTS L-TTLGLPPF FVVFFI---L LS------DD LI-------- --------DD
+           -----RCVVL TLAALALPPF FAASSL---L LG------KK LVSSAA--GG CCLLGGKKKD
+           -------VVA L-TTLGLPPF FEEFFI---L LS------DD LI------II --------LH
+           -------NNT L-AALGLPPF FAAFFI---L LS------DD LARR----II --------LN
+           -------LLT --LLLALPPF FAAFF----F FT------NN LIPP----EE QQ-------G
+           -------AAA L-AALGLPPF FAAFFI---L LS------DD LC------II --------LN
+           -------VVT L-AALGLPPF FAAFFT---L LS------DD LIII----VV --------IN
+           -------VVY --AALGLPPF FIIWWT---L LK---DDDHH KIDDYY--CC IIMM-----N
+           -----NDVVV L-GGLGLPPF FGGWWD---D DKAA-PPPAA LVGG----EE PPEE-----N
+           -----KDVVS L-VVLGLPPF FIIWWA---L LS------HH LIGG----EE VVLL-----N
+           --CCCPTVVQ A-TTLGLPPF FIIWWA---L LS---HHHKK LIGG----EE VVLL-----S
+           -----KKLLK A-YYLRLPPF FEENNDKFFL LSKKVCCCSS LVAALL-THH CCMMLLYYTD
+           -----KDVVT L-AALGLPPF FIIWWA---L LG------NN LIGG----EE VVLL-----N
+           -----KDVVS L-SSLSLPPF FIIFFE---L LS------HH LIGG----EE VVLL-----N
+           -----AMWWK FLIILGLPPF FIIWWS---L LG------DD LVTT------ --SSQQKKSK
+           -----LELLP LLCCLLLPPF FFFWWG---L LQ------FF LVGGMMAGMM AANNIIDDYI
+           -----KDVVN L-TTLGLPPF FIIWWA---L LS------HH LVTT----DD VVLL-----N
+           PPKKKCVYYT L-PPLGLPPF FVVNNS---I ISLLE---GG LVNN------ ---------S
+           -----KNVV- L-GGLGLPPF FEEWWE-TTL LA------HH LIGG----EE VVLL-----N
+           -----KKVVT L-AALGLPPF FIIWWA---L LS------HH LIGG----EE VVLL-----N
+           -----QD--- L-SSLGLPPF FIIWWA---L LV------HH LTGG----EE PPTT-----N
+           -----KDMMT L-SSLGLPPF FIIWWS-FFL LS------LL LVGG----EE VVLL-----T
+           -----KDIIT L-AALGLPPF FIIWWA---L LS------HH LIAA----EE VVLL-----N
+           -------IIA L-AALGLPPF FIIWWA---L LS------HH LIGG----SS VVVV--DDLN
+           -----KKKKA H-AALGLPPF FFFWWV---M MS------QQ LQTT------ KKRRAAPPLD
+           ------LVVT L-AALGLPPF FIIWWA---L LS------HH LIGG----SS ---------N
+           --AAAKNLLK --TTLALPPF FDDWWL---V VT------HH LIEE------ AALLLLKKLN
+           KKPPPKAVVT L-GGLGLPPF FIIWWS---L LVLLLAAAHH LIGG----SS VV-------N
+           EEGGGGNDDP MLIILGLPPF FIIIIL---L L-------NN LVVV------ ----LLVVVA
+           -----KAVVT L-PPLGLPPF FLLWWV---E ES------QQ LIGG------ TTEEIIMMLN
+           -----KNVVT L-AALGLPPF FIIWWA---L LS------QQ LIGG------ SSLLIIVVLN
+           -------LLT L-GGLGLPPF FIIWWA---L LS------HH LIGG------ SSLLIIVVLN
+           -----KSLLA L-GGLGLPPF FIIWWT---L LS------HH LIGG------ TTLL-----N
+           -----KSLLT L-GGLGLPPF FIIWWT---L LS------HH LIGG------ SSLLLLVVLN
+           ------SLLS --GGLGLPPF FIIWWT---L LS------VV LIGG----TT SSLLLLVVVN
+           -----MSLLT GLGGLAMPPF FIIYYS---L L-------SS LIGG------ SSLLMMTTFN
+           -----KSLLA -PGGLGLPPF FIISST---L LS------HH LLGG------ SSLLLLVVLN
+           -----QALLT SPKKLGLPPF FIIWWA---T TT------HH LIAA------ KKLLLLVVLN
+           -----QSLLT SPGGLGLPPF FIIWWT---L LD------HH LIGG------ SSLLLLVVLN
+           --DDDQSAAD SPGGLGLPPF FIIWWE---L LA------HH LVGG------ CCIISSAALN
+           -----QSLLT SPGGLGLPPF FIIWWT---L LA------TT LIGG------ SSLLLLAALN
+           -----QALLT SPGGLGLPPF FIIWWT---L LA---KKKTT NIGG------ DDLLLLAALN
+           -----QSLLT TPGGLGLPPF FIIWWT---L LD------SS LIGG------ --LLLLAALN
+           -----KSLLT TPVVLGLPPF FIIWWS---L LA------GG LVPP------ AAHHLLFFLN
+           -----QSVVT SPGGLGLPPY YIIWWA---L LA------NN LVGG------ NNLLVVAALR
+           -----QSLLT SPGGLGLPPF FIIWWS---L LA------NN LSGG------ SSLLLLAALK
+           -----QSLLT SPGGLGLPPF FIIWWS---L LA------NN LVGG------ SSLLLLAALK
+
+           SSSSLLIMMM AA---RLLMM AGSSLLFFYL LRL--FFALL LLLTTPGLQQ --------GD
+           SSSSAASKKK -----FLLMM PGPPLLFFYL LRL--FFGLL LLLAAPTVQQ --------GA
+           AAAALLLLLL QQ---ITTMM AGSSLLFFYL LRL--FFALL LLLGGPATQQ --------GT
+           SSSSLLILLL LLASAYLLMM AGSSLLFFYL LRL--FFALL LLLSSPTLSS --------AV
+           IIIILLILLL LL---NKKKK NASSNNYFYL LRL--FFTLL LLLAAPTVEE --------CR
+           KKKKMMISSS TT---MLLKK EGSSVVFFYL LRL--FFTLL LFFYYAKNPP --------GA
+           DDDDLLFRRR -----RIIKK KSSSSSLFYL LEL--FFALL LEESSPS--- --------EK
+           LLLLLLILLL KK---VVVKK EASSNNYFYQ QKV--FFGLL LLLAAPVAQQ LLWKKAACGQ
+           SSSSQQVVVV -----SVVKK KGGGNNYFYR RKL--VVAAL LSSPPPTEKK --------WF
+           SSSSLLVFFF AA-PVVGGRR PSSSNNCIFQ QAL--IITVL LPPGGPSPVV --------KL
+           KKKKVVLLLL PP------LL SYEEFFSFYL LDL--FFKLL LEEEETPA-- --------TK
+           TTTTIIVLLL --------KK VGNNNNYFYL LSL--HHALL LLLSSPKL-- -------V--
+           HHHHAAIEEE --------KK KGKKDDYFYL LRT--FFALL LPPSSPTF-- -------RSV
+           TTTTVVVLLL --------KK SGSSNNYFYV VRL--FFALL LLLSSPTLQQ -----GGVHA
+           MMMMVVALLL --------KK EGSSNNYFYQ QEL--FFALL LLLSSPTTQQ -----KKFHS
+           GGGGRRQLLL --------KK GGSSNNFFYY YRL--FFEEL LRRSSPAAEE -------VSK
+           NNNNIIVLLL --------KK KESSNNYFYR RKL--FFALP PLLNNPTLEE -----GGLAA
+           DDDDVVVLLL --------KK SGSSNNYFYQ QKL--FFAIL LLLSSPTL-- -------KHD
+           DDDDVVPLLL --------KK SGSSNNAFYQ QKK--YYKII ILLTTPNFQQ --------GS
+           HHHHVVVLLL --------KK DGNNNNYFYQ QKL--FFMIL LLLLLPTL-- --------HD
+           NNNNVVVLLL --------KK PGSSNNYFYQ QKL--FFAVL LLLSSPT--- -------QHD
+           GGGGTTKLLL --------KK SGAANNYFYQ QKL--RRAIL LLLQQPTPQQ -----GGDHD
+           NNNNVVFLLL --------KK NGSSNNYYYQ QKL--FFGVL LLLSSKTV-- -----TTQHD
+           NNNNVVLLLL --------KK GGSSNNYFYL LKL--FFAVL LLLSSPTVAA -----PPQHN
+           NNNNVVLLLL --------KK GGSSNNSFYL LKL--FFAIL LLLSSPSVTT -------NEH
+           NNNNVVLLLL --------KK DGSSNNYFYL LKFVVFFQIL LLLCCPA--- --------QG
+           NNNNVVVLLL --------KK GGSSNNYFYV VKL--FFAVL LLLSSPTKAA -----PPQHN
+           SSSSVVMLLL --------LL AGNNNNYFYL LKL--FFTVL LLLPPPPVAA -----DDGPW
+           DDDDVVTVVV --------VV VANNSSCFYL LSI--FFDVK KLLDDPE--- --------SN
+           NNNNVVVFFF --------LL GGSSNNYFYL LKL--FFAVL LLLSSPTVAA -------HGN
+           NNNNVVVIII --------LL GGSSKKYFYL LKL--FFAVL LLLVVPTTAA -------HAN
+           KKKKVVGVVV --------LL LQSSSSYFYL LSL--FFTVL LLLAAPTSLL -----QQAAV
+           IIIICCFFFF --------LL SASSSSYFYL LKL--FFAVL LKKPPPTV-- -------GWE
+           NNNNVVVLLL --------LL GGAANNYFYL LKL--FFAVV VLLSSPTVAA -------QGH
+           SSSSVVLEEE VV------MM LTGGNNYFYQ QQLTTFFTVL LLLKKPTCAA -----SSAKT
+           NNNNGGMLLL --------VV GGSSNNYFYL LKL--FFAVL LLLSSPTVKK -------LGH
+           NNNNVVVLLL --------LL GGSSNNYFYL LNA--FFAVL LLLSSPT--- -------VGH
+           NNNNVVSLLL --------LL GGSSNNYFYL LKL--FFAVL LLLSSPTV-- -------VGH
+           TTTTVVGLLL --------VV GGEENNCFYL LQL--FFATL LLLSSPSQVV -------VGH
+           NNNNVVVLLL --------LL GGKKNNYFYL LKL--FFASI ILLSSPT--- -------LPP
+           NNNNVVILLL --------LL GSSSNNYFYL LKL--FFAVL LLLGGPS--- -------VGH
+           DDDDIIHLLL --------LL NGSSNNYFYL LKL--YYDVL LLLCCPV--- --------EH
+           NNNNGGVLLL --------LL GGAANNYFYL LKV--FFAVL LLLTTPT--- -------LGH
+           NNNNGGVLLL --------LL GGSSNNYFYL LKA--FFAVL LLLSSPTV-- --------AH
+           NNNNSSTLLL --------LL AGAANNYFYL LKL--FFAVL LLLSSPHV-- --------GH
+           AAAALLLLLL --------MM KGGGNNYFYL LKL--FFPIL LQQEEPQF-- -------DPP
+           NNNNLLLLLL --------LL AGSSNNYFYL LKL--FFAVL LLLSSPHVSS --------DG
+           NNNNFFLLLL --------LL GGSSNNYFYL LKL--FFHVL LLLSSPHVSS --------EG
+           NNNNLLLLLL --------LL GGSSNNYFYL LKL--FFAVL LLLAAPHVPP --------GH
+           NNNNLLVLLL --------AA AGNNNNYMYL LHL--FFAVL LLLAAPHVPP --------GH
+           NNNNLLLLLL --------AA GGSSNNYFYL LKL--FFAVL LLLAAPHVPP --------GH
+           NNNNLLLLLL --------AA GATTNNYFYL LKL--FFAAL LLLAAPRTPP --------EH
+           NNNNFFLLLL --------AA GGSSNNYFYL LKLWWFFAVL LLLNNPHVPP --------GH
+           NNNNFFLLLL --------AA GGNNNNFFYL LKL--FFAVL LLLAAPDVQQ --------GH
+           NNNNFFLLLL --------SS GKSSNNEFYL LKL--FFRAL LVVPPPDVKK --------AH
+           NNNNFFLLLL --------AA GGSSNNYFYL LKL--FFAVL LLLAAPNVQQ --------EH
+           NNNNFFLLLL --------AA GASSNNYIYL LPL--FFAVL LLLAAPNIEE --------SQ
+           NNNNFFLLLL --------AA GTSSNNYFYL LKL--FFAVL LLLAAPSVNN --------DH
+           NNNNFFLLLL --------AA GASSNNYFYL LKL--FFAVL LLLAAPNVNN --------EH
+           NNNNFFLLLL --------AA GASSNNYFYL LKL--FFAVI ILLAAPNVNN --------EH
+           NNNNYYLLLL --------AA GVSSNNYFYL LKL--FFDIL LEECCPDVNN -----EEGVY
+           RRRRFFLLLL --------AA GASSNNYFYL LKL--FFATL LLLAAPNVNN --------EH
+           KKKKFFLLLL --------AA GSSSNNYFYL LKL--FFAVL LLLAAPNVNN --------EH
+           KKKKFFLLLL --------AA GASSNNYFYL LKL--FFAVL LLLAAPNVNN --------EH
+
+           DKK------- ---PPQCDDL --------II INLMMFL-FF LLLPL----- -SP-------
+           AQQ------- ---PPHSSSL --------YY YTLHH---FF IILPI----- -SP-------
+           TNN------- ---EEHTAAL ---------- -GLMMALFHH LLLPL----- -AP-------
+           VHH------- ---PPHSSSL --------FF FGLMMNLYFF LLIPL----- -TP-------
+           RLL------- ---PPS---- ---------- -GGAAKIIKK LLFPYIIKK- -AP-------
+           AMM------- ---PPKICCL --------SS SQFLLFSNTT WWPKLPPVV- -LP-------
+           KEE------- ---PPKPIIM --------FF FNAPPAIFSS PPPSLAAII- -KG-------
+           QGG------- ---KKREVVW --------LL LDDIIAAIKK VVLPG----- -DP-------
+           FFF------- ---PPQSPPE --------FF FTKYYQSSFF FFL------- -GP-------
+           LKK------- ---WWQNAAL KK------DD DKLPPESVCC FFLHRTTQQ- -GP-------
+           KCC------- -KKTTKICCD LL-------- --RSSQHGKK LLYPC----- --P-------
+           -WWVVYV--- ---CCIFEEA LLF------- ---IIYAS-- CCLHI----- -TPF------
+           VGG------- -PPLLKVGGK ---------- --FEEKVNLL VVYAGLLLLE EDP-----YY
+           ACCKKYG--- ---KKTFEEK LLF------- ---IIYMA-- --LPV----- -SPF------
+           SCC------- ---GGKFHHS IIVI--NNLL LSPRRYQS-- --LALCC--- -AK-------
+           KCC------- -GGVVWCTTQ EE------AA ALGIIFNASS KKLKT----- -QP-------
+           ACCQQ----- -RRVVFFEEK YYY------- --ILLYIL-- ---PV----- -RPA------
+           D----YYNNN D--KKIFDDK LLF------- ---IINIA-- --L-P----- -IPF------
+           SQQFF----- -GGVVKTEE- ---------- --FLLIVTII KKLPA----- ----------
+           DCCQQYYDDD I--AAVFDDK LLY------- ---LLYIA-- --LPP----- -SPY------
+           DCCEE-YPPP N--KKVFDDK LLY------- ---VVFIA-- --LPL----- -APY------
+           DLLEEKAAAA ISSNNWPPPK TT-------- --DLLLYGLL VVAPV----- -APK------
+           DCCDDDCPPP NQQKKGFDDR LLYPRGSSRR RIIIIFIA-- --LPL----- -APY--GGRR
+           NCCDDQTPPP DDDKKMFQQK LLF------- ---IIFIT-- --LPI----- -PPY------
+           HIIIIDD--- -YYDDLYAAD LLESDFIITT TIYTTVARSS KKFPI----- -P------SS
+           GEE------- -YYTTYELLE ------RRAA AFASSLFK-- QQKPV----- -PA-----FF
+           NCCDDEFPPP -DDSSMYAA- ---------- -LYAALFI-- QQLPI----- -PP-----YY
+           WCCLLDAYYY -SSRRMKTTK ---------- --FNNYFPGG SSTAEIIYY- -PH---SSAA
+           NGG------- -HHLLEHHHQ ---------- --TEEVHTRR LLESDRRFFG GPK---KKCC
+           NCCNNEFPPP -EERRCYAAA --------FF FIYAALFN-- VVLPV----- -PP-------
+           NCCDDQFGGG -DDSSLYAAK --------FF FLYAALFP-- VVFPIAASSN NPP-----YY
+           VTTKKCDLLL -DDKKGAGGN SSSGQTLLCC CPHEELTGSS VVYLFHHSST TPE-------
+           ELLSS----- -GGLLSLVVH TTMA-PEEAA AGFEEFLLYY VVALN----- -KD-----QQ
+           HCCNNQFPPP -DDEELYGGK --------YY YLYAALFP-- VVLPN----- -PP-----YY
+           THH------- -VVSSCLPPR KK-------- --SKKFLFII TTTPEHHAAN NNRL--SSTT
+           HCCEEDSPPP -QQNNLHAAK --------YY YLYAALFP-- IILPN----- -PP-----FF
+           HCCDDQFSSS -GGLLY-GGK --------FF FLYAALFP-- IILPN----- -PP-----YY
+           HCCDDE---- -GGAAF---- ---------- -GAGGFLN-- SSIPN----- -KP-----YY
+           HCCDDQ---- -GGLLYFGGD --------FF FLHAALFP-- II-PA----- -PP-----AA
+           PCCDDQ---- -GGLLV-GGQ ---------- -LYSSLFP-- VVLPS----- -LP-----YY
+           HCCDDQ---- -AAVVYEGGN --------FF FYYAALLP-- IIVPN----- -PA-----YY
+           HCCVVD---- -RRLLVFGG- --------FF FHLPPLFP-- IIVLNHH--- -PP-----GG
+           HKKDDQ---- -GGQQY---K --------HH HLYAALFQRR IIMPN----- -PL-----YY
+           HCC------- -HHKKLYTTR --------PP PLFLLFLAII TTYP------ -PA---PPFF
+           HRRNNLESSS PQQVVVECCN --------EE ELYPPFLDTT IIQPS----- -PP-----YY
+           PEE------- -AAYYLYSSH --------PP PLYSSYLGTT RRGD-----R RAA---IIFF
+           GIILL--DDD -NNVVPNMMK ---------- ---DDLLGTT LLLPE----- -PS-----YY
+           GIIGG--GGG -NNLLNSAAK ---------- --YPPFLSTT VVMPN----- -PP-----YY
+           HAA------- -KKVVVYAAK LL-------- --FPPFLGTT IIMPT----- -PP-----YY
+           HSS------- -KKLLGYVVK LL-------- --YPPFLGTT IIFPE----- -PPHLLGGGG
+           HSS------- -HHLLGYAAK LL-------- --YPPFLGTT IIMPS----- -PP-----YY
+           HSSSS--PPP -DDLLGYSSK II-------- --HPPFLQTT AAMPV----- -AP-----YY
+           HTT------- -KKLLGYAAK II-------- --YPPYLGTT IIKPT----- -PP-----AA
+           HSS------- -KKMMGYPPK LL-------- --YPPFLGSS IIRPK----- -QPQ--KKCC
+           HTTEE----- -GGTTNYFFR --------LL LLYPPFVV-- KKLDN----- -PGV----GG
+           HGG------- -KKLLGYAAR LL-------- --YSSFLGTT IIMPK----- -PP-----CC
+           QGG------- -KKFFGITTK EE-------- --YPPFLGAA FFLPN----- -KP-----CC
+           HGG------- -KKLLGYAAF QQE------- --YPPFVGTT IIIPK----- -PP-----CC
+           H--------- -GGLLGYAAK EE-------- --YPPFLGTT IITPK----- -PP-----CC
+           HKK------- -KKLLVYAAQ EE-------- --YPPFIGTT IIGPK----- -PP-----CC
+           YEEAATE--- -IIAAGYTTM EE-------- --YPPSLKLL LLLEA----- -AC-----II
+           HEE------- -KKLLGYSSI EES-----PP PKYPPFLGTT IIVAK----- -GP-----AA
+           HEE------- -KKLLGYSSA EE-------- --YPPFLGHH IIVAK----- -PP-----CC
+           HEE------- -KKLLGYSSM EE-------- --YPPFLGTT IIVAK----- -PP-----CC
+
+           --MIM--QLL WW
+           --DRLS-GKK WW
+           --LRLE-QPP WW
+           --MRL--KAA WW
+           --FN---GII WW
+           --KQA--GPP WW
+           --NRL--AEE WW
+           --KKH--DAA WW
+           --LRAF-GQQ WW
+           --AQIQ-KVV WW
+           -------FLL WW
+           --KRC--P-- WW
+           YYQKFI---- WW
+           --KRL--P-- WW
+           --KRQ--LSS WW
+           -------PRR WW
+           --KRV--EPP WW
+           --QRL--P-- WW
+           --TRL--ESS WW
+           --KRL--P-- WW
+           --KRL--PNN WW
+           --PSL--VKK WW
+           RRKRL--PTT WW
+           --KRL--AAA WW
+           SSKQF--SAA WW
+           FFRGL----- WW
+           YYNRFQ-SDD WW
+           AAPRF--GKK WW
+           CCTLLH-PSS WW
+           --RRFN-SDD WW
+           YYRRFN-VEE WW
+           --SVDE-YVV WW
+           QQKKL--PEE WW
+           YYRRFH-SDD WW
+           TTRNFN-MCC WW
+           FFRRGN-TDD WW
+           YYRRFN-QDD WW
+           YYGRFE-DDD WW
+           AA-QFE---- WW
+           YY-RFN-KNN WW
+           YYKKFN-HDD WW
+           GGARF--PSS WW
+           YYKRFH-ADD WW
+           FFFRFS-VEE WW
+           YYKRY--PDD WW
+           FFKRM--QEE WW
+           YYKKF--QEE WW
+           YYKRF--QNN WW
+           YYKR-L-QEE WW
+           GGKR-L-IKK WW
+           YYKR-S-QEE WW
+           YYKWI--LEE WW
+           AAKS-I-QEE WW
+           CCTRPLDHEE WW
+           GGKRPV-ENN WW
+           CCTRPL-QEE WW
+           CCASNL-KQQ WW
+           CCTRPL-KEE WW
+           CCMRPL-KEE WW
+           CCSRPL-KEE WW
+           IIKVPA-TQQ WW
+           AATRPV-KEE WW
+           CCTRPL-KEE WW
+           CCTRPL-KEE WW
+

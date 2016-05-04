@@ -1,0 +1,24 @@
+#NodeSupport_01
+#TaxonList:sp4 sp3 sp2 sp6 sp16 sp7 sp15 sp11 sp10 sp8 sp12 sp1 sp14 sp13 sp9 sp5 
+#REF: /nfs/users/cn/efloden/projects/concTree-nf/tutorial/data/ref_trees/tips16/asymmetric_1.0.unroot.tree
+#N_REPLICATE: 2
+#REPLICATE:   1 bootstrapsCat.txt  100
+#REPLICATE:   2 paramastrapsCat.txt  100
+#NODE: <list> <depth> <correct> <support from replicate X..>
+0110000000000000  2   1 0.9400 0.9900 
+1110000000000000  3   1 0.0000 0.2800 
+0000000000011000  2   1 0.1700 0.0800 
+0000000000011100  3   1 1.0000 1.0000 
+0000000000111100  4   1 0.9800 0.9400 
+0000000000111110  5   1 0.5300 0.4700 
+0000000001111110  6   1 0.9000 0.9300 
+0000000011111110  7   1 0.9900 0.9400 
+0000000111111110  8   1 0.9900 0.8500 
+0000001111111110  7   1 0.9600 0.8600 
+0000011111111110  6   1 1.0000 0.9100 
+0000111111111110  5   1 0.9100 0.9700 
+0001111111111110  4   1 0.3400 0.3600 
+#AVG: 0.7469 0.7369 
+#AVG_NODE_SUPPORT: Correct: N 0.0000 ------ ------ 
+#AVG_NODE_SUPPORT: Correct: Y 1.0000 0.7469 0.7369 
+#END

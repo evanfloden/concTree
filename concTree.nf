@@ -47,9 +47,6 @@ log.info "\n"
  * Input parameters validation
  */
 
-input_sequences         = file(params.input)
-results_path            = file(params.output)
-
 guidance_alignments_num = params.alignments as int
 bootstraps = params.bootstraps as int
 
@@ -57,11 +54,11 @@ bootstraps = params.bootstraps as int
  * Create a channel for input sequence files 
  */
  
-datasets = Channel
+Channel
     .fromPath( params.input )
     .ifEmpty { error "Cannot find any input sequence files matching: ${params.input}" }
     .map { file -> tuple( file.baseName, file ) }
- 
+    .set { datasets }
 
 process guidance2 {
     tag "guidance2: $datasetID"
