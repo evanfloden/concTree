@@ -1,4 +1,8 @@
+#!/usr/bin/env nextflow
+
 /*
+ * Copyright (c) 2013-2018, Centre for Genomic Regulation (CRG).
+ *
  *   This file is part of 'concTree-NF'.
  *
  *   concTree-NF is free software: you can redistribute it and/or modify
